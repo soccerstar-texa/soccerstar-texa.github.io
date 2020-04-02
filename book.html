@@ -40,10 +40,56 @@
         #logestparagraphever{
             color:white;
         }
+        
+        
+        display: block;
+        
+            
+
+        li {
+          float: left;
+          border-right:1px solid #bbb;
+        
+        
+        }
+        
+        li:last-child {
+          border-right: none;
+         
+        }
+        
+        #ila {
+            display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        #ila:hover:not(.removeL) {
+          background-color: #22AEF0;
+        }
+        
+        .removeL {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
         </style>
     </head>
     <body>
-       
+        <ul class="removeL">
+            <li><a id="ila" href="index.html">Home</a></li>
+            <li><a id="ila" href="France.html">Travel To France!</a></li>
+            <li><a id="ila" href="book.html">Recipe Book</a></li>
+            <li><a id="ila" href="about.html">About</a></li>
+          </ul>
         <h1 id="starterheading">Sahil's Recipe Book</h1>
         
         <h2 id="tableofcontents">Contents:</h2>
@@ -166,5 +212,7 @@ Top with sliced mozzarella cheese and bake at 500°F for 11-13 minutes.
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg" width="100 ">
     </body>
 </html>
+
+
 
 
